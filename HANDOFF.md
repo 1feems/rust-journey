@@ -8,11 +8,13 @@
 
 `rust-journey` is a public GitHub repo (`1feems/rust-journey`) — Feems' personal Rust learning portfolio. It is separate from `buddy-tech`. Content is written for a public audience of beginner learners.
 
+Local path: `/Users/feems/Desktop/rust-journey`
+
 ---
 
 ## Current State
 
-**Not yet pushed to GitHub.** Folder exists locally at `/Users/feems/Desktop/rust-journey/`.
+**Live on GitHub.** All sessions 1–6 complete. Pushed 2026-06-01.
 
 ---
 
@@ -20,45 +22,43 @@
 
 ```
 rust-journey/
-├── README.md                          ✅ Done
+├── README.md                                    ✅
 ├── rust-school/
-│   ├── session-1/
-│   │   ├── 01-overview.md             ✅ Copied from buddy-tech
-│   │   ├── 02-lesson-recap.md         ⏳ Placeholder — needs building from transcript
-│   │   └── 03-study-guide.md          ✅ Copied from buddy-tech
-│   ├── session-2/
-│   │   ├── 01-overview.md             ✅
-│   │   ├── 02-lesson-recap.md         ⏳ Placeholder — needs building from transcript
-│   │   └── 03-study-guide.md          ✅
-│   ├── session-3/
-│   │   ├── 01-overview.md             ✅
-│   │   ├── 02-lesson-recap.md         ⏳ Placeholder — needs building from transcript
-│   │   └── 03-study-guide.md          ✅
-│   ├── session-4/
-│   │   ├── 01-overview.md             ✅
-│   │   ├── 02-lesson-recap.md         ⏳ Placeholder — needs building from transcript
-│   │   └── 03-study-guide.md          ✅
-│   ├── session-5/
-│   │   ├── 01-overview.md             ✅
-│   │   ├── 02-lesson-recap.md         ✅ Done (fetched from GitHub)
-│   │   └── 03-study-guide.md          ✅
-│   └── session-6/
-│       ├── 01-overview.md             ✅
-│       ├── 02-lesson-recap.md         ⏳ Placeholder — needs building from transcript
-│       └── 03-study-guide.md          ✅
-├── homework/
-│   ├── session-2/homework.md          ✅ Copied from buddy-tech
-│   ├── session-3/homework.md          ✅
-│   ├── session-4/homework.md          ✅
-│   ├── session-5/homework.md          ✅
-│   └── session-6/homework.md          ✅
+│   ├── README.md                                ✅ Landing page with lesson links
+│   ├── lessons/
+│   │   ├── session-1/
+│   │   │   ├── 01-overview.md                   ✅
+│   │   │   ├── 02-lesson-recap.md               ✅
+│   │   │   └── 03-study-guide.md                ✅
+│   │   ├── session-2/ ... session-6/            ✅ All complete
+│   └── homework/
+│       ├── session-2/homework.md                ✅
+│       ├── session-3/homework.md                ✅
+│       ├── session-4/homework.md                ✅
+│       ├── session-5/homework.md                ✅
+│       └── session-6/homework.md                ✅
 ├── vocabulary/
-│   └── glossary.md                    ✅ Done — all 6 sessions populated
+│   └── glossary.md                              ✅ Sessions 1–6 populated
 ├── exercises/
-│   └── README.md                      ⏳ Placeholder
+│   └── README.md                                ⏳ Placeholder
 └── learning-notes/
-    └── README.md                      ⏳ Placeholder
+    └── README.md                                ⏳ Placeholder
 ```
+
+---
+
+## Pipeline — How New Sessions Are Added
+
+When the user drops a new Rust School transcript, build these 4 pages and push to this repo:
+
+| # | File | Template (in buddy-tech) |
+|---|---|---|
+| 1 | `rust-school/lessons/session-N/01-overview.md` | `templates/OVERVIEW-TEMPLATE.md` |
+| 2 | `rust-school/lessons/session-N/02-lesson-recap.md` | `templates/LESSON-RECAP-TEMPLATE.md` |
+| 3 | `rust-school/lessons/session-N/03-study-guide.md` | `templates/RUST-SCHOOL-STUDY-GUIDE-TEMPLATE.md` |
+| 4 | `rust-school/homework/session-N/homework.md` | `templates/HOMEWORK-TEMPLATE.md` |
+
+Then update `rust-school/README.md` to add the new session link.
 
 ---
 
@@ -66,24 +66,6 @@ rust-journey/
 
 | Task | Notes |
 |---|---|
-| Build lesson recaps for sessions 1–4 and 6 | Use `templates/LESSON-RECAP-TEMPLATE.md` in buddy-tech. Needs transcript for each session. |
-| Add user's homework answers | User fills these in as they complete homework |
-| Push to GitHub as public repo | Run: `gh repo create 1feems/rust-journey --public` then push |
-| Add homework answers section to each homework file | User adds their own answers directly |
-
----
-
-## Templates (in buddy-tech)
-
-| Template | File | Used for |
-|---|---|---|
-| Lesson Recap | `templates/LESSON-RECAP-TEMPLATE.md` | Building session lesson recaps |
-| Rust School Study Guide | `templates/RUST-SCHOOL-STUDY-GUIDE-TEMPLATE.md` | Building study guides |
-| Homework reference | `lessons/rust-school/session-5/05-homework.md` | Homework format |
-
----
-
-## Next Session — Start Here
-
-1. Build lesson recaps for sessions 1–4 and 6 (user to provide transcripts)
-2. Push repo to GitHub: `cd /Users/feems/Desktop/rust-journey && git init && gh repo create 1feems/rust-journey --public --source=. --push`
+| Add homework answers | User adds their own answers directly to homework files as they complete them |
+| Add exercises content | User adds practice exercises to `exercises/` as they create them |
+| Add learning notes | User adds walkthrough notes to `learning-notes/` as they record them |
