@@ -16,7 +16,7 @@ Rust is a fast, safe systems language built to catch bugs at compile time — be
 
 ## Why This Matters
 
-Most languages let you write code fast — but they also let you write code that breaks in production. Rust solves this by moving error detection to compile time, before your program ever runs.
+Most languages let you write code fast but they also let you write code that breaks in production. Rust solves this by moving error detection to compile time, before your program ever runs.
 
 For Solana specifically, this matters even more:
 - Smart contracts handle real money
@@ -27,10 +27,10 @@ For Solana specifically, this matters even more:
 
 ## Important Rules
 
-- The compiler error is not the enemy — it is pointing at a real problem
+- The compiler error is not the enemy it is pointing at a real problem
 - Rust is steep to learn because it enforces rules other languages skip, not because it is complicated
 - The strictness upfront saves debugging time later
-- Stop seeing the compiler as an obstacle — it is catching bugs before your users do
+- Stop seeing the compiler as an obstacle it is catching bugs before your users do
 
 ---
 
@@ -75,7 +75,7 @@ How the Rust compiler protects you — from code to running program:
 
 1. You write Rust code following the rules (ownership, types, borrowing)
 2. The compiler reads your code and checks every rule
-3. If a rule is broken — a memory issue, a type mismatch, a data race — it stops and tells you exactly what is wrong
+3. If a rule is broken — a memory issue, a type mismatch, a data race it stops and tells you exactly what is wrong
 4. You fix the error
 5. The compiler approves and turns your code into a runnable program
 6. The running program is free from that entire class of bug
@@ -87,7 +87,7 @@ The key shift: bugs are caught at step 3 (during development), not after step 6 
 ## Common Confusions
 
 * "Why does the compiler keep rejecting my code — is something wrong with my setup?"
-  No. This is normal. The compiler is doing its job. Read the error carefully — it tells you exactly what rule was broken and often suggests a fix.
+  No. This is normal. The compiler is doing its job. Read the error carefully it tells you exactly what rule was broken and often suggests a fix.
 
 * "Other languages don't have this problem — why is Rust so strict?"
   Other languages defer these checks to runtime (when your users are affected) or rely on you to get it right manually. Rust catches them at compile time.
