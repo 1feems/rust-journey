@@ -14,3 +14,4 @@ To make the most out of this experience, we encourage everyone to stay active, s
 * [Session 4 — Collections, Enums & Error Handling](./lessons/session-4/01-overview.md)
 * [Session 5 — Structs, impl Blocks & State Design](./lessons/session-5/01-overview.md)
 * [Session 6 — Error Handling](./lessons/session-6/01-overview.md)
+* [Session 8 — Traits and Abstractions](./lessons/session-8/01-overview.md)
