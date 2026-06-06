@@ -1,10 +1,8 @@
 # Her DAO Rust School
 
-Rust School is a free, community-driven program, and we're really glad to have you here 💙
+Rust School is a free, community-driven learning program designed to help beginners build a strong foundation in Rust programming. Through structured lessons, hands-on exercises, and peer support, participants learn core Rust concepts while developing practical coding skills in a welcoming environment.
 
-To make the most out of this experience, we encourage everyone to stay active, share their journey, and contribute to the community.
-
----
+--
 
 ## Lessons
 
