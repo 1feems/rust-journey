@@ -39,4 +39,4 @@ Traits are one of the most important tools in Rust. They let you define a shared
 
 - [Lesson Recap →](./02-lesson-recap.md)
 - [Study Guide →](./03-study-guide.md)
-- [Homework →](../../homework/session-8/homework.md)
+- [Homework →](./04-homework.md)

@@ -40,6 +40,5 @@ This session answers one question: why does Rust exist? The instructor explains 
 
 ## Pages
 
-- [Synthesis →](./02-synthesis.md)
-- [Lesson →](./03-lesson.md)
-- [Exercise →](./05-exercise.md)
+- [Lesson Recap →](./02-lesson-recap.md)
+- [Study Guide →](./03-study-guide.md)

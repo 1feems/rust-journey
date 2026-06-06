@@ -238,12 +238,6 @@ A lifetime error. The fix is to return `String` instead of `&str` — transfer o
 
 ---
 
-## How This Connects to Solana
-
-Solana instruction handlers receive accounts as mutable references — `&mut AccountInfo`. The program borrows each account, reads or writes its data, and returns control. This is exactly the pattern you're practicing here: borrow, use, return. The borrowing rules that feel abstract now are the same rules that prevent Solana programs from having double-write bugs.
-
----
-
 ## Stretch Goals
 
 - Refactor Step 2 to use `&str` instead of `&String` in the function signatures — both work, but `&str` is more idiomatic

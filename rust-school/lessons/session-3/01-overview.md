@@ -47,8 +47,6 @@ This session explains how Rust manages memory — without a garbage collector. T
 
 ## Pages
 
-- [Synthesis →](./02-synthesis.md)
-- [Lesson →](./03-lesson.md)
-- [Study Guide →](./04-study-guide.md)
-- [Homework →](./05-homework.md)
-- [Exercise →](./06-exercise.md)
+- [Lesson Recap →](./02-lesson-recap.md)
+- [Study Guide →](./03-study-guide.md)
+- [Homework →](./04-homework.md)

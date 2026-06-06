@@ -209,12 +209,6 @@ fn main() {
 
 ---
 
-## How This Connects to Solana
-
-Nested loops appear in Solana programs when processing multiple accounts or instructions at once. The pattern of "outer loop = items, inner loop = operations per item" maps directly to iterating over accounts passed to an instruction handler. The counter and conditional logic you practice here is the same logic used inside those handlers.
-
----
-
 ## Stretch Goals
 
 - Print a diamond pattern (triangle going up, then down)

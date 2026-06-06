@@ -28,5 +28,6 @@ Write and run basic Rust programs using variables, loops, and functions.
 
 ## Pages
 
-- [Lesson notes →](./lesson)
-- [Exercises →](./exercise)
+- [Lesson Recap →](./02-lesson-recap.md)
+- [Study Guide →](./03-study-guide.md)
+- [Homework →](./04-homework.md)

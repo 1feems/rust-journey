@@ -284,16 +284,6 @@ match tx_type {
 
 ---
 
-## How This Connects to Solana
-
-The Ledger pattern is a simplified version of what Solana programs do:
-- `HashMap` ≈ account state stored on-chain (key = address, value = data)
-- `TransactionType` enum ≈ the instruction enum that routes program logic
-- `Result` return from `withdraw` ≈ `Result<(), ProgramError>` from every instruction handler
-- Insufficient balance check ≈ the kind of validation Solana programs do before modifying account state
-
----
-
 ## Stretch Goals
 
 - Add a `deposit` function that also returns `Result`
